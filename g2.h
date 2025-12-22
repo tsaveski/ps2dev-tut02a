@@ -1,6 +1,6 @@
 //---------------------------------------------------------------------------
 // File:	g2.h
-// Author:	Tony Saveski, t_saveski@yahoo.com
+// Author:	Tony Saveski, saveski@gmail.com
 // Notes:	Simple 'High Level' 2D Graphics Library
 //---------------------------------------------------------------------------
 #ifndef G2_H
@@ -13,11 +13,11 @@ extern "C" {
 #endif
 
 typedef enum {
-	 PAL_256_256_32=0
-	,PAL_320_256_32
-	,PAL_384_256_32
-	,PAL_512_256_32
-	,PAL_640_256_32
+     PAL_256_256_32=0
+    ,PAL_320_256_32
+    ,PAL_384_256_32
+    ,PAL_512_256_32
+    ,PAL_640_256_32
 } g2_video_mode;
 
 extern int g2_init(g2_video_mode mode);
